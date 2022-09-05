@@ -94,7 +94,7 @@ public class ParaBankRegisterationFlow {
 	public void validateSuccessfulMsg() {
 		SuccessValidationPage successpage = PageFactory.initElements(driver, SuccessValidationPage.class);
 
-		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		// Get Actual Successful Message Text
 		String actSuccessMsgText = successpage.getSuccessMsg();
