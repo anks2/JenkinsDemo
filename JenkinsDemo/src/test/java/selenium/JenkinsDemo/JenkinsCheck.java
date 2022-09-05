@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class ParaBankRegisterationFlow {
+public class JenkinsCheck {
 
 	public WebDriver driver;
 	public WebDriverWait wait;
