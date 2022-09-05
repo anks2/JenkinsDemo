@@ -90,7 +90,7 @@ public class ParaBankRegisterationFlow {
 
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, enabled=false)
 	public void validateSuccessfulMsg() {
 		SuccessValidationPage successpage = PageFactory.initElements(driver, SuccessValidationPage.class);
 
@@ -114,7 +114,7 @@ public class ParaBankRegisterationFlow {
 
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 4, enabled=false)
 	public void logoutAccount() {
 		SuccessValidationPage successpage = PageFactory.initElements(driver, SuccessValidationPage.class);
 
