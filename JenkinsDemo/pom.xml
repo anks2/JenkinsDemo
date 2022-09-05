@@ -58,6 +58,7 @@
           <configuration>
           <suiteXmlFiles>
           <suiteXmlFile>testng.xml</suiteXmlFile>
+          <suiteXmlFile>ParaBankRegisterationFlow.xml</suiteXmlFile>
           </suiteXmlFiles>
           </configuration>
         </plugin>
