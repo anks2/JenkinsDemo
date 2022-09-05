@@ -48,7 +48,7 @@ public class ParaBankRegisterationFlow {
 		// Maximize the browser
 		driver.manage().window().maximize();
 
-		Reporter.log("Application Launched Successfully !");
+		System.out.println("Application Launched Successfully !");
 
 	}
 
@@ -103,13 +103,13 @@ public class ParaBankRegisterationFlow {
 		String successMsgText = arrActualSuccessMsg[0].trim();
 
 		if (actSuccessMsgText.contains(expSuccessMsgText)) {
-			Reporter.log("Actual and Expected Successful Message are Same");
-			Reporter.log("Actual Successful Message is " + successMsgText);
-			Reporter.log("Expected Successful Message is " + expSuccessMsgText);
+			System.out.println("Actual and Expected Successful Message are Same");
+			System.out.println("Actual Successful Message is " + successMsgText);
+			System.out.println("Expected Successful Message is " + expSuccessMsgText);
 		} else {
-			Reporter.log("Actual and Expected Successful Message are Not Same");
-			Reporter.log("Actual Successful Message is " + successMsgText);
-			Reporter.log("Expected Successful Message is " + expSuccessMsgText);
+			System.out.println("Actual and Expected Successful Message are Not Same");
+			System.out.println("Actual Successful Message is " + successMsgText);
+			System.out.println("Expected Successful Message is " + expSuccessMsgText);
 		}
 
 	}
@@ -126,7 +126,7 @@ public class ParaBankRegisterationFlow {
 	public void closeApplication() {
 		// close the browser
 		driver.close();
-		Reporter.log("Application closed !");
+		System.out.println("Application closed !");
 
 	}
 

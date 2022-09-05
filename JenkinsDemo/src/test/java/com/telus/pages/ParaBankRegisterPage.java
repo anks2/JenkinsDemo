@@ -56,59 +56,59 @@ public class ParaBankRegisterPage {
 	// Methods for WebElements
 	public void setFirstName(String fname) {
 		firstName.sendKeys(fname);
-		Reporter.log("First name is " + fname);
+		System.out.println("First name is " + fname);
 	}
 
 	public void setLastName(String lname) {
 		lastName.sendKeys(lname);
-		Reporter.log("Last name is " + lname);
+		System.out.println("Last name is " + lname);
 	}
 
 
 	public void setStreetAddress(String strtAdd) {
 		streetAddress.sendKeys(strtAdd);
-		Reporter.log("Street Address is " + strtAdd);
+		System.out.println("Street Address is " + strtAdd);
 	}
 
 	public void setCity(String cityName) {
 		city.sendKeys(cityName);
-		Reporter.log("City is " + cityName);
+		System.out.println("City is " + cityName);
 	}
 
 	public void setState(String stateName) {
 		state.sendKeys(stateName);
-		Reporter.log("State is " + stateName);
+		System.out.println("State is " + stateName);
 	}
 
 	public void setZipCode(String zip) {
 		zipCode.sendKeys(zip);
-		Reporter.log("Zip Code is " + zip);
+		System.out.println("Zip Code is " + zip);
 	}
 
 	public void setPhoneNo(String phNo) {
 		phoneNo.sendKeys(phNo);
-		Reporter.log("Phone Number is " + phNo);
+		System.out.println("Phone Number is " + phNo);
 	}
 
 	public void setSSN(String ssNo) {
 		ssn.sendKeys(ssNo);
-		Reporter.log("SSN is " + ssNo);
+		System.out.println("SSN is " + ssNo);
 	}
 
 	public void setUserName(String usrNm) {
 		userName.sendKeys(usrNm);
-		Reporter.log("User Name is " + usrNm);
+		System.out.println("User Name is " + usrNm);
 	}
 
 
 	public void setPassword(String pswd) {
 		password.sendKeys(pswd);
-		Reporter.log("Password is " + pswd);
+		System.out.println("Password is " + pswd);
 	}
 
 	public void setConfirmPassword(String cpswd) {
 		confirmPassword.sendKeys(cpswd);
-		Reporter.log("Confirm Password is " + cpswd);
+		System.out.println("Confirm Password is " + cpswd);
 	}
 
 	public String getPassword() {
@@ -123,7 +123,7 @@ public class ParaBankRegisterPage {
 
 	public void clickSubmitBtn() {
 		submitBtn.click();
-		Reporter.log("Registration Form Submitted Successfully !");
+		System.out.println("Registration Form Submitted Successfully !");
 	}
 
 

@@ -25,7 +25,7 @@ public class ParaBankHomePage {
 	{
 		registrationPageLink.click();
 
-		Reporter.log("Navigated to Para Bank Registration Page");
+		System.out.println("Navigated to Para Bank Registration Page");
 
 	}
 

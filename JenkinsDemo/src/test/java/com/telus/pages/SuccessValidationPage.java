@@ -33,7 +33,7 @@ public class SuccessValidationPage {
 
 	public void clickLogOut() {
 		logout.click();
-		Reporter.log("Logged Out of the Account !");
+		System.out.println("Logged Out of the Account !");
 	}
 
 }
